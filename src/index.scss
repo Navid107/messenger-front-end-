@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap");
 
-$gray-300: #a3a3a36d;
+$gray-300: #11282cb3;
 $gray-400: #f70b0b;
 $primary-400: #000407;
-$primary-500: #0f08cdf4;
+$primary-500: #afa4a4f4;
 $primary-600: #0f08cdfc;
-$primary-700: #0f08cd;
-$primary-800: #005ccc00;
+$primary-700: #6560f5;
+$primary-800: #0f08cd;
 $secondary-300: #7ac5d7;
 $secondary-500: #219ebc;
 $secondary-800: #e000dc6c;
@@ -543,8 +543,8 @@ body,
 
 .ce-danger-button {
   border-radius: 5px !important;
-  background-color: rgb(246, 63, 63) !important;
-  color: white !important;
+  background-color: $primary-800 !important;
+  color: $primary-400 !important;
   border: 1px solid $primary-400 !important;
 }
 
