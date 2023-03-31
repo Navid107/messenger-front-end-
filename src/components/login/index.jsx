@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { usePostLoginMutation, usePostSignUpMutation } from "@/state/api";
+import Icon from "../../assets/icon.png"
 
 const Login = ({ setUser, setSecret }) => {
   const [isRegister, setIsRegister] = useState(false);
@@ -21,16 +22,19 @@ const Login = ({ setUser, setSecret }) => {
       setUser(username);
       setSecret(password);
     }
-  }, [resultLogin.data]); 
+  }, [resultLogin.data]); // eslint-disable-line
+
   return (
     <div className="login-page">
       <div className="login-container">
-        <h2 className="title">ChatGPT</h2>
+        
+        <h2 className="title-login">AiChat Messenger</h2>
         <p
           className="register-change"
           onClick={() => setIsRegister(!isRegister)}
         >
-          {isRegister ? "Already a user?" : "Are you a new user?"}
+          {isRegister ? <button className="button-login">Login</button> :
+           <button className="button-signUp">SignUp</button>}
         </p>
 
         <div>
@@ -52,14 +56,15 @@ const Login = ({ setUser, setSecret }) => {
 
         <div className="login-actions">
           {isRegister ? (
-            <button type="button" onClick={handleRegister}>
-              Register
+            <button className="button-signUp" type="button" onClick={handleRegister}>
+              SignUp
             </button>
           ) : (
-            <button type="button" onClick={handleLogin}>
+            <button className="button-login" type="button" onClick={handleLogin}>
               Login
-            </button>
+            </button>   
           )}
+          <img className="icon-loginPage" src={Icon}/>
         </div>
       </div>
     </div>
