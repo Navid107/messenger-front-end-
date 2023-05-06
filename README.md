@@ -20,6 +20,7 @@ This project uses a number of open source projects to work properly:
 
 - [React] - HTML enhanced for web apps!
 - [Chat Engine] - 7 days free trailer access
+- [OpenAi] - Artificial intelligence Bot
 - [Vite] - Markdown parser done right. Fast and easy to extend.
 - [node.js] - evented I/O for the backend
 - [Express] - fast node.js network app framework [@tjholowaychuk]
@@ -71,6 +72,7 @@ Add your Project ID from Chat Engine
    [jQuery]: <http://jquery.com>
    [express]: <http://expressjs.com>
    [React]: <https://react.dev/>
+   [OpenAI]: <https://platform.openai.com/docs/guides/chat>
    [Mongoose]: <https://www.mongodb.com/atlas/database>
    [Live Demo]: <https://aimessenger.netlify.app/>
 
