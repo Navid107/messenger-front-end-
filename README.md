@@ -14,7 +14,7 @@ This is a simple CRUD application where every part of this project is sample cod
 * Create a Mongoose DataBase which saves the data in cloud 
 * Create a front end with React 
 
-# <a herf="https://aimessenger.netlify.app/">Live Demo</a>
+# LiveDemo
 ## Tech
 
 This project uses a number of open source projects to work properly:
@@ -73,13 +73,6 @@ Add your Project ID from Chat Engine
    [express]: <http://expressjs.com>
    [React]: <https://react.dev/>
    [Mongoose]: <https://www.mongodb.com/atlas/database>
- 
-
-   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
-   [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
-   [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
-   [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
-   [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
-   [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
+   LiveDemo : <https://www.aimessenger.netlify.app>
 
 
