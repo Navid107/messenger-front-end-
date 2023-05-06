@@ -73,6 +73,6 @@ Add your Project ID from Chat Engine
    [express]: <http://expressjs.com>
    [React]: <https://react.dev/>
    [Mongoose]: <https://www.mongodb.com/atlas/database>
-   [LiveDemo] : <https://www.aimessenger.netlify.app>
+   [LiveDemo] : <https://aimessenger.netlify.app>
 
 
