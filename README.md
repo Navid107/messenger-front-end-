@@ -14,7 +14,7 @@ This is a simple CRUD application where every part of this project is sample cod
 * Create a Mongoose DataBase which saves the data in cloud 
 * Create a front end with React 
 
-# LiveDemo
+# [LiveDemo]
 ## Tech
 
 This project uses a number of open source projects to work properly:
@@ -73,6 +73,6 @@ Add your Project ID from Chat Engine
    [express]: <http://expressjs.com>
    [React]: <https://react.dev/>
    [Mongoose]: <https://www.mongodb.com/atlas/database>
-   LiveDemo : <https://www.aimessenger.netlify.app>
+   [LiveDemo] : <https://www.aimessenger.netlify.app>
 
 
