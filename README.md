@@ -26,7 +26,7 @@ This project uses a number of open source projects to work properly:
 - [Mongoose] - Cloud Database
 - [jQuery] - duh
 
-## Installation
+## FrontEnd Installation
 Install the dependencies and devDependencies and start the server.
 
 ```sh
